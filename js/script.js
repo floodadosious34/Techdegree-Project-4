@@ -72,7 +72,7 @@ function getRandomQuote () {
 
 //This Function changes the background color of the body element. It is called in the printQuote function.
 function randomColor () {
-  const random = () => Math.floor(Math.random() * 256);
+  const random = () => Math.floor(Math.random() * 256); //got this arrow function from the functions module in treehouse.
   let randomRGB = `rgb(${random()}, ${random()}, ${random()})`;
 
   document.body.style.backgroundColor = randomRGB;
