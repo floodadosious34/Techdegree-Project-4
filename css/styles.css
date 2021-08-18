@@ -3,7 +3,7 @@
  * Random Quote Generator - CSS
  */
 
- @import url('https://fonts.googleapis.com/css?family=Roboto');
+ @import url('https://fonts.googleapis.com/css?family=Roboto'); /*changed font to Roboto*/
 
 body {
   background-color: rgb(58, 193, 98);
